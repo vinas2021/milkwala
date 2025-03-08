@@ -25,7 +25,5 @@ router.get('/total/:id', authantication, authorize, milkController.getMilkDataBy
 // month wise data
 router.get('/month/:id',authantication, authorize, milkController.MonthWiseData);
 
-// total payment
-router.get('/payment',authantication, authorize, milkController.totalPayment);
 
 module.exports = router;
